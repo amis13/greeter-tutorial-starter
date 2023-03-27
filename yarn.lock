@@ -7458,6 +7458,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"emitter-b@npm:*":
+  version: 1.0.0
+  resolution: "emitter-b@npm:1.0.0"
+  dependencies:
+    proto: ">=1.0.17"
+  checksum: f57108640a18f9fcd6d9ed2ea64beb8720ea90021be4388b43ec93e61a821de789b98da3130e182e18bd7b2eeebece660128900efec8df271a9bb33b813bf203
+  languageName: node
+  linkType: hard
+
 "emoji-regex@npm:^7.0.1":
   version: 7.0.3
   resolution: "emoji-regex@npm:7.0.3"
@@ -8717,6 +8726,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gem@npm:^2.4.3":
+  version: 2.4.3
+  resolution: "gem@npm:2.4.3"
+  dependencies:
+    emitter-b: "*"
+    hashmap: "https://github.com/Tixit/hashmap/archive/c666bbe32a8d23bbafc96c5d8f18e385b1b00f27.tar.gz"
+    observe: 1
+    proto: ">=1.0.17"
+    trimArguments: "https://github.com/fresheneesz/trimArguments/archive/c9c023c9ff1e0aec4b67370a80a92dacadcf8b11.tar.gz"
+  checksum: 702bcffd5b0109f203c1e9890cf6be1f31429bbab84d24a33272402d274a147656c673fa036f1169568fe82d749b42981968a07b2580555254678af062a2e2fb
+  languageName: node
+  linkType: hard
+
 "gensync@npm:^1.0.0-beta.2":
   version: 1.0.0-beta.2
   resolution: "gensync@npm:1.0.0-beta.2"
@@ -9014,6 +9036,8 @@ __metadata:
     eslint: ^6.7.2
     eslint-plugin-vue: ^6.2.2
     ethers: ^5.7.2
+    gem: ^2.4.3
+    install: ^0.13.0
     node: ^19.8.1
     travis: ^0.1.1
     vue: ^2.6.11
@@ -9225,6 +9249,13 @@ __metadata:
     inherits: ^2.0.3
     minimalistic-assert: ^1.0.1
   checksum: e350096e659c62422b85fa508e4b3669017311aa4c49b74f19f8e1bc7f3a54a584fdfd45326d4964d6011f2b2d882e38bea775a96046f2a61b7779a979629d8f
+  languageName: node
+  linkType: hard
+
+"hashmap@https://github.com/Tixit/hashmap/archive/c666bbe32a8d23bbafc96c5d8f18e385b1b00f27.tar.gz":
+  version: 2.0.5-minfiedBugFix
+  resolution: "hashmap@https://github.com/Tixit/hashmap/archive/c666bbe32a8d23bbafc96c5d8f18e385b1b00f27.tar.gz"
+  checksum: 5c5b58498ae848ca20399019287818d63f894a24c3b46043b9c636adcc641a1917fb21b55e146cf2e014f5394a179b9391ccbbedb6aaa698d000086b5fcceb6d
   languageName: node
   linkType: hard
 
@@ -9766,6 +9797,13 @@ __metadata:
     strip-ansi: ^6.0.0
     through: ^2.3.6
   checksum: 4d387fc1eb6126acbd58cbdb9ad99d2887d181df86ab0c2b9abdf734e751093e2d5882c2b6dc7144d9ab16b7ab30a78a1d7f01fb6a2850a44aeb175d1e3f8778
+  languageName: node
+  linkType: hard
+
+"install@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "install@npm:0.13.0"
+  checksum: 645bad1253115309c64d791c901caa8acd61a4012731015e3ee5eef88baaca026f3a48dc15a73a2827f7f5b05609804968ea1e3c6525dc0b3a21241837b9cf59
   languageName: node
   linkType: hard
 
@@ -12032,6 +12070,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"observe@npm:1":
+  version: 1.4.1
+  resolution: "observe@npm:1.4.1"
+  dependencies:
+    proto: "*"
+  checksum: 6a8bde68dcd4edad0b6f88b19348ef6637b554ce7719b699e711f0fae8f8c83b7a5d76e1de972124a07cb8db743b518febdaef8a1d01d06bf39d085b1fb3cecc
+  languageName: node
+  linkType: hard
+
 "obuf@npm:^1.0.0, obuf@npm:^1.1.2":
   version: 1.1.2
   resolution: "obuf@npm:1.1.2"
@@ -14209,6 +14256,13 @@ __metadata:
   version: 1.2.4
   resolution: "proto-list@npm:1.2.4"
   checksum: 4d4826e1713cbfa0f15124ab0ae494c91b597a3c458670c9714c36e8baddf5a6aad22842776f2f5b137f259c8533e741771445eb8df82e861eea37a6eaba03f7
+  languageName: node
+  linkType: hard
+
+"proto@npm:*, proto@npm:>=1.0.17":
+  version: 1.0.19
+  resolution: "proto@npm:1.0.19"
+  checksum: ea9bd5560b1579953ffb15309a4c1e21545baca12b4553cdd8ad7265dfa59860dfb55e4b3ab696cead09a0d04b7646e00b0ee332e8ee9ecf1a872327115bd2a9
   languageName: node
   linkType: hard
 
@@ -16539,6 +16593,13 @@ __metadata:
   version: 1.0.1
   resolution: "trim-right@npm:1.0.1"
   checksum: 9120af534e006a7424a4f9358710e6e707887b6ccf7ea69e50d6ac6464db1fe22268400def01752f09769025d480395159778153fb98d4a2f6f40d4cf5d4f3b6
+  languageName: node
+  linkType: hard
+
+"trimArguments@https://github.com/fresheneesz/trimArguments/archive/c9c023c9ff1e0aec4b67370a80a92dacadcf8b11.tar.gz":
+  version: 1.0.1
+  resolution: "trimArguments@https://github.com/fresheneesz/trimArguments/archive/c9c023c9ff1e0aec4b67370a80a92dacadcf8b11.tar.gz"
+  checksum: a822b8f7e71db269d57811d760997449de2b6ab30a72d6ad616abcff9174ca553f173f906fe05ca8def1c352b959e1e2ff0c3d9dd048a5f406d5cbfb3763c978
   languageName: node
   linkType: hard
 
