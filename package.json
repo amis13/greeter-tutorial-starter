@@ -5,16 +5,22 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "webpack-defaults": "webpack-defaults"
   },
   "dependencies": {
+    "cli-service": "^0.0.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "ethers": "^5.7.2",
+    "node": "^19.8.1",
+    "vue": "^2.6.11",
+    "webpack": "^5.76.3",
+    "zksync-web3": "^0.14.3"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
+    "@vue/cli-service": "^5.0.8",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
